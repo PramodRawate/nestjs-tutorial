@@ -1,6 +1,9 @@
 import { Module } from '@nestjs/common';
+import { UsersController } from './users.controller';
 
-@Module({})
+@Module({
+  controllers: [UsersController]
+})
 export class UsersModule {
     constructor() {
         console.log('Users module integrated...');

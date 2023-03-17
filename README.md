@@ -69,3 +69,12 @@ nest generate module <module-name>
 OR
 nest g mo <module-name>
 ```
+
+
+### 2. Controllers
+A controller's purpose is to receive specific requests for the application. The routing mechanism controls which controller receives which requests. Frequently, each controller has more than one route, and different routes can perform different actions.
+```
+nest generate controller <controller-name>
+OR
+nest g co <controller-name>
+```
