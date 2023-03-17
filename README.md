@@ -78,3 +78,12 @@ nest generate controller <controller-name>
 OR
 nest g co <controller-name>
 ```
+
+### 3. Providers
+Anything that can be injected as a dependecny is called as a Provider. Many of the basic Nest classes may be treated as a provider – services, repositories, factories, helpers, and so on.
+Providers are plain JavaScript classes that are declared as providers in a module.
+```
+nest generate provider <provider-name>
+OR
+nest g pr <provider-name>
+```
